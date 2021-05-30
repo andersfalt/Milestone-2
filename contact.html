@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+
+    <title>Off the Beaten Path</title>
+
+    <!-- Styles -->
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+        integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+
+    <!-- Styles -->
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+        <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png" width="200px" height="70px" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-primary collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Destinations</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="thailand.html">Thailand</a>
+                        <a class="dropdown-item" href="cambodia.html">Cambodia</a>
+                        <a class="dropdown-item" href="vietnam.html">Vietnam</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shareplace.html">Add Place</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Static Header -->
+    <header>
+        <div style="background: url(assets/images/vietnam-hero.jpg)" class="jumbotron bg-cover text-white">
+            <div class="container py-5 text-center">
+                <h1 class="display-4 font-weight-bold">CONTACT</h1>
+                <p class="font-italic mb-5">Get in touch</p>
+            </div>
+        </div>
+    </header>
+
+    <!--Static Header -->
+    <!--/contact_info-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form id="contactForm" class="getInTouch-form" onsubmit="return sendMail(this);">
+                    <div class="form-group mt-2">
+                        <input type="text" name="name" id="fullname" class="form-control" placeholder="Your Full Name"
+                            required>
+                    </div>
+                    <div class="form-group mt-2">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email Address"
+                            required>
+                    </div>
+                    <textarea class="form-control" name="message" id="message" rows="7" placeholder="Message"
+                        required></textarea>
+                    <div class="form-button">
+                        <button type="submit" class="btn btn-slider btn-lg"
+                            aria-label="Submit the contact form">Send</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6 map-padding"><iframe allowfullscreen="" frameborder="0"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBPzoFVVnnBB2hoebM8V6tsSNqZxaTnkBM&amp;q=Falun%2CSweden&amp;zoom=15"
+                    width="100%" height="500"></iframe></div>
+        </div>
+    </div>
+    </section>
+    </div><!-- /.container -->
+
+
+    <!-- FOOTER -->
+    <div id="footer" class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://www.facebook.com"><i
+                                    class="fa fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.twitter.com"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li class="list-inline-item"><a href="https://www.instagram"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+                    <p>Not just any journey, but the unique trip with the exceptional experiences you're looking for
+                    </p>
+                    <p class="h6">Copyright © 2021 All right Reversed.<a class="text-green ml-2"
+                            href="https://www.sunlimetech.com" target="_blank">Off The Beaten Path</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ./Footer -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/7.29.2/sweetalert2.all.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init("user_46HDxLgJ9cXDr8vFGQP2X");
+        })();
+    </script>
+    <script src="assets/js/sendmail.js"></script>
+</body>
+
+</html>
