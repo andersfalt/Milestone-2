@@ -82,7 +82,6 @@ View live project [here.](https://andersfalt.github.io/Milestone-2/)
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/andersfalt/milestone-1/blob/master/assets/images/validator-w3.JPG)
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/andersfalt/milestone-1/blob/master/assets/images/CSS-validator.JPG)
 
 ### Testing User Stories from User Experience (UX) Section
@@ -113,7 +112,8 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Known Bugs
 
--   When pressing the pre order button and the modal window opens the hero image shifts a bit to the right on all browsers.
+-   Weather icon not showing on the hero image on the destination page.
+-   Spacing problem in the footer and on the featured on section.
 
 ### Deployment
 
