@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+
+
+/* Navbar */
+
+.navbar-primary {
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.dropdown-item {
+    font-weight: normal;
+    text-transform: capitalize;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.footer {
+padding-bottom: 40px;
+}
+
+.btn-slider {
+    background-color: #712361;
+}
+
+.btn {
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.heading-subtitle {
+    font-family: 'Dancing Script';
+    font-size: 23px;
+    color: #712361;
+    font-weight: 700;
+}
+
+.h1-heading {
+    text-transform: uppercase;
+    font-family: 'Noto Sans';
+    font-weight: 900;
+    color: #2e2e2e;
+}
+
+.h1-destination {
+    text-transform: uppercase;
+    font-family: 'Noto Sans';
+    font-size: 55px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.destination-title {
+    text-transform: uppercase;
+    font-family: 'Noto Sans';
+    font-weight: 900;
+    color: #fff;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.sub-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-links a:hover {
+    color: #712361;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.rounded-circle {
+    border-radius: 50% !important;
+    background-color: #712361;
+    border: none;
+}
+
+.container {
+    margin-top: 5rem;
+}
+
+.container i {
+    color: #fff;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+
+.jumbotron p {
+    font-style: italic;
+    color: #fff;
+    font-size: 23px;
+}
+
+@media (max-width: 768px) {
+    .card {
+        min-height: 350px;
+    }
+}
+
+@media (max-width: 420px) {
+    .card {
+        min-height: 300px;
+    }
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
+
+/* RESPONSIVE CSS Slider
+-------------------------------------------------- */
+.p-slider {
+    font-size: 22px;
+}
+
+@media screen and (max-width: 992px) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 22px;
+        line-height: 1.4;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 22px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
+
+.slide-container {
+    padding: 0px;
+}
+
+
+* Breadcrumbs */ .breadcrumbs-custom {
+    position: relative;
+    display: flex;
+    background-color: #122e44;
+    background-position: 20% 20%;
+}
+
+.breadcrumbs-custom-inner {
+    display: flex;
+    min-height: inherit;
+    width: 100%;
+    padding: 50px 0 25px;
+}
+
+.breadcrumbs-custom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.breadcrumbs-custom-container::before {
+    content: '';
+    display: block;
+}
+
+.breadcrumbs-custom-path {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.breadcrumbs-custom-path>* {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.breadcrumbs-custom-path li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #fff;
+}
+
+.breadcrumbs-custom-path li::after {
+    content: "";
+    font-family: "FontAwesome";
+    position: absolute;
+    top: 51%;
+    right: -5px;
+    display: inline-block;
+    font-size: inherit;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.5);
+    transform: translate3d(0, -50%, 0);
+}
+
+.breadcrumbs-custom-path li:last-child:after {
+    display: none;
+}
+
+.breadcrumbs-custom-path a {
+    display: inline;
+    vertical-align: middle;
+}
+
+.breadcrumbs-custom-path a,
+.breadcrumbs-custom-path a:active,
+.breadcrumbs-custom-path a:focus {
+    color: #fff;
+}
+
+.breadcrumbs-custom-path a:hover {
+    color: #ff830a;
+}
+
+*+.breadcrumbs-custom-path {
+    margin-top: 25px;
+}
+
+.breadcrumbs-custom-subtitle+.breadcrumbs-custom-title {
+    margin-top: 15px;
+}
+
+@media (min-width: 576px) {
+    .breadcrumbs-custom-path {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    .breadcrumbs-custom-path>* {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    *+.breadcrumbs-custom-path {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .breadcrumbs-custom {
+        min-height: 23.75vw;
+    }
+
+    .breadcrumbs-custom-inner {
+        padding: 80px 0 30px;
+    }
+
+    .breadcrumbs-custom-subtitle+.breadcrumbs-custom-title {
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .breadcrumbs-custom-inner {
+        padding-bottom: 40px;
+    }
+
+    .breadcrumbs-custom-subtitle+.breadcrumbs-custom-title {
+        margin-top: 10px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .breadcrumbs-custom {
+        min-height: 456px;
+    }
+
+    .breadcrumbs-custom-inner {
+        padding: 50px 0 40px;
+    }
+
+    .breadcrumbs-custom-subtitle+.breadcrumbs-custom-title {
+        margin-top: 20px;
+    }
+}
+
+/* Booking*/
+
+.bpk-button {
+    display: inline-block;
+    margin: 0;
+    padding: .375rem 1.125rem;
+    border: 0;
+    background-image: linear-gradient(-180deg, #712361 0%, #712361 100%);
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: none;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    color: #fff;
+    color: var(--bpk-button-primary-text-color, #fff);
+    background-color: #712361;
+    background-color: var(--bpk-button-primary-background-color, #712361);
+    border-radius: .25rem;
+    border-radius: var(--bpk-button-border-radius, .25rem);
+    font-size: 1.1875rem;
+    font-size: var(--bpk-button-font-size, 1.1875rem);
+}
+
+.ReferralButton__buttonContainer___17KMM a {
+    text-decoration: none;
+}
+
+.CrisisMessage__crisisMessageContainer___2me-A a {
+    text-decoration: none;
+}
+
