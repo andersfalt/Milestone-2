@@ -1,59 +1,179 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Off the Beaten Path - Travel
 
-Welcome andersfalt,
+Developed and designed as part of Milestone Project 2: Interactive Front-end Development module - Code Institute.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
 
-## Gitpod Reminders
+This is the website for Off the Beaten Path. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for the visitor.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2 align="center"><img src="https://raw.githubusercontent.com/andersfalt/milestone-2/master/assets/images/MS2-mockup.JPG"></h2>
 
-`python3 -m http.server`
+View live project [here.](https://andersfalt.github.io/Milestone-2/)
 
-A blue button should appear to click: _Make Public_,
+## User Experience (UX)
 
-Another blue button should appear to click: _Open Browser_.
+-   ### User stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+    -   #### First Time Visitor Goals
 
-A blue button should appear to click: _Make Public_,
+        1. As a Visitor, I want to easily understand the main purpose of the site and learn more different destinations.
+        2. As a Visitor, I want to be able to easily navigate throughout the site to find content.
+        3. As a isitor, I want to see the location of the destination.
+        4. As Visitor, I would like to be able to easily find and navigate to the company's social media.
 
-Another blue button should appear to click: _Open Browser_.
+    -   #### Returning Visitor Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+        1. As a Returning Visitor, I want to find information on if new destinations have been added yet.
+        2. As a Returning Visitor, I want to find the best way to get in contact with the company with any questions I may have.
 
-To log into the Heroku toolbelt CLI:
+-   ### Design
+    -   #### Colour Scheme
+        -   The two main colors used are gray (#2e2e2e) and purple (#712361).
+    -   #### Typography
+        -   The Noto Sans font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Dancing Script is used as an accent font.
+    -   #### Imagery
+        -   Imagery is important. The large hero images are designed to be striking and catch the user's attention.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+*   ### Wireframes
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+    -   Site Wireframe - [View](https://github.com/andersfalt/Milestone-2/blob/master/assets/images/site-wireframe.png)
 
-## Updates Since The Instructional Video
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+-   Responsive on all device sizes
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+-   Interactive elements
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+-   Local Weather
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies Used
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Languages Used
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+-   [JavaScript](https://en.wikipedia.org/wiki/JavaScript) 
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Frameworks, Libraries & Programs Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+1. [Bootstrap 4.5.2:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Titillium Web' font into the formbee.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [jQuery:](https://jquery.com/)
+    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
+    - Postman was used to test API's for the website.
+1. [Postman:](https://www.postman.com/)
+    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+1. - Google Chrome Dev tools for debugging
+1. - Google Light house for audits
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
----
+## Testing
 
-Happy coding!
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+
+-   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/andersfalt/milestone-1/blob/master/assets/images/validator-w3.JPG)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/andersfalt/milestone-1/blob/master/assets/images/CSS-validator.JPG)
+
+### Testing User Stories from User Experience (UX) Section
+
+-   #### First Time Visitor Goals
+
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and find great destinations.
+
+        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice.
+        Underneath there is a slider showing destinations with a "Explore" Call to action button (See image below). Which takes you to the desired destination.
+        2. The main points are made immediately with the hero image
+        3. The user has several options, click the call to action button or scroll down. By scrolling down where the user will find favourite destinations. By clicking the picture the user will be taken to the destination
+
+
+    2. As a First Time Visitor, I want to be able to easily be able to navigate throughout the site to find content.
+
+        1. The site has been designed to be fluid. At the top of the page there is a clean navigation bar, each link describes what page they will end up at.
+        2. The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
+        3. At the destination page you are presented with favourite places. By clicking the image the location will be shown on the map.
+
+        <h2 align="left"><img src="https://raw.githubusercontent.com/andersfalt/milestone-2/master/assets/images/destination.JPG"></h2>
+
+### Testing
+
+-   The Website was tested on Google Chrome, Firefox, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone Xs Max.
+-   A large amount of testing was done to ensure that the site works on all devices and that all the links work.
+
+### Known Bugs
+
+-   When pressing the pre order button and the modal window opens the hero image shifts a bit to the right on all browsers.
+
+### Deployment
+
+The current deployment of this project was done using gitpod.
+
+I used the gitpod interface to write the code and as it is linked with github as it was easy to use the terminal to commit my files and push to my repository.
+
+The deployed website is hosted on github pages for easy viewing without having to clone or fork the repository to view the running website.
+Deployment was done by clicking on the settings tab on my repository then navigating to "Github pages"
+Changing the source from none to master, this then deployed a link that can be found here : https://github.com/andersfalt/milestone-2
+
+If you wish to run this project locally.
+
+1. Click clone / download
+2. Choose your preffered method (Zip or github desktop)
+3. Open in your preffered IDE
+4. Run on local server
+
+
+## Planned features to be implemented
+
+- Add the function for users to become members, and also let the users add their own favourite locations.
+- Add more coutries
+- Add a function for users to see air fare to the destination.
+
+
+## Credits
+
+### Code
+
+-   The script for toggeling conted was adapted from https://enmascript.com/articles/2019/10/14/show-and-hide-content-on-click-with-just-html
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-  The code for the local weather was taken from https://bithacker.dev/fetch-weather-openweathermap-api-javascript and customized for the project.
+
+- The code for the aler pop up was taken from https://sweetalert2.github.io/
+and customized to fit the project
+
+- The code for the map function was created using the Resume project and Google Map API as referances, and also https://stackoverflow.com/search?q=google+maps+show+location
+### Content
+
+-   All text was taken from https://www.lonelyplanet.com/ and re-written by the developer.
+
+
+### Media
+
+-   All my images that were used during the development of this site were taken from, https://unsplash.com/
+-  Logo created by the developer
+
+- All the images was edited by the developer.
+
+### Acknowledgements
+
+-   My Mentor for continuous helpful feedback.
+
+-   Tutor support at Code Institute for their support.
+
+-   All the great people on Slack
+
+**This project is for educational use only and was created for the Code Institute Interactive Front-end Development module**
+
+**Created by Anders Fält**
